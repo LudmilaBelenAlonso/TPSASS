@@ -1,0 +1,46 @@
+body {
+  max-width: 1100px; }
+
+#header nav, #principal article, #profesores article, #tps article, #cursos article, #certificado article, #trabajos article {
+  margin-left: 100px;
+  margin-right: 100px; }
+
+* {
+  width: 100%;
+  margin: 0; }
+
+/****************navbar************************/
+#header img {
+  width: 160px;
+  padding-bottom: 10px; }
+
+nav {
+  display: inline-flex;
+  flex-direction: row;
+  height: 30px;
+  padding-top: 10px;
+  margin-left: 75px; }
+
+.menu {
+  font-family: "raleway";
+  font-size: 15px;
+  display: inline-flex;
+  flex-direction: row; }
+  .menu li {
+    list-style: none; }
+    .menu li a {
+      text-decoration: none;
+      color: black; }
+  .menu .wks, .menu .cursos, .menu .carreras {
+    visibility: hidden; }
+
+/***********************seccion principal**********************/
+#principal {
+  background: -webkit-linear-gradient(211deg, #a1fbed, #d4fdf7);
+  background: -o-linear-gradient(211deg, #a1fbed, #d4fdf7);
+  background: linear-gradient(301deg, #a1fbed, #d4fdf7); }
+  #principal h2 {
+    font-family: "lato", sans-serif;
+    font-style: italic bold; }
+
+/*# sourceMappingURL=styles.css.map */

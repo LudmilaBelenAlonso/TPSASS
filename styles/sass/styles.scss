@@ -1,0 +1,72 @@
+@import '_variables.scss';
+
+body{
+    max-width: 1100px;
+}
+
+#header nav, #principal article,#profesores article, #tps article, #cursos article, #certificado article, #trabajos article{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+* {
+    width: 100%;
+    margin: 0;
+}
+/****************navbar************************/
+
+#header {
+    
+    img {
+        width: 160px;
+        padding-bottom: 10px;
+    }
+}
+
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 75px;
+
+}
+
+.menu {
+    font-family: $fontfamily-txt;
+    font-size: $fontsize-p - 15px;
+    display: inline-flex;
+    flex-direction: row;
+    
+    
+    li {
+        list-style: $nostyle;
+        
+        a{
+            text-decoration: $nostyle;
+            color: $color;
+            
+        }
+    }
+    
+    .wks, .cursos, .carreras {
+        visibility: hidden;
+    }
+}
+
+
+/***********************seccion principal**********************/
+
+#principal {
+    background: -webkit-linear-gradient(211deg, rgb(161, 251, 237), rgb(212, 253, 247));
+    background: -o-linear-gradient(211deg, rgb(161, 251, 237), rgb(212, 253, 247));
+    background: linear-gradient(301deg, rgb(161, 251, 237), rgb(212, 253, 247));
+    
+    h2 { 
+        font-family: $fontfamily-titulo, sans-serif;
+        font-style: italic bold;
+    } 
+    
+
+}
