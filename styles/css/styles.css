@@ -1,12 +1,4 @@
-body {
-  max-width: 1100px; }
-
-#header nav, #principal article, #profesores article, #tps article, #cursos article, #certificado article, #trabajos article {
-  margin-left: 100px;
-  margin-right: 100px; }
-
 * {
-  width: 100%;
   margin: 0; }
 
 /****************navbar************************/
@@ -19,7 +11,8 @@ nav {
   flex-direction: row;
   height: 30px;
   padding-top: 10px;
-  margin-left: 75px; }
+  margin-left: 2%;
+  justify-content: flex-start; }
 
 .menu {
   font-family: "raleway";
@@ -27,20 +20,64 @@ nav {
   display: inline-flex;
   flex-direction: row; }
   .menu li {
-    list-style: none; }
+    list-style: none;
+    width: 200px; }
     .menu li a {
       text-decoration: none;
       color: black; }
   .menu .wks, .menu .cursos, .menu .carreras {
-    visibility: hidden; }
+    visibility: collapse; }
 
 /***********************seccion principal**********************/
 #principal {
-  background: -webkit-linear-gradient(211deg, #a1fbed, #d4fdf7);
-  background: -o-linear-gradient(211deg, #a1fbed, #d4fdf7);
-  background: linear-gradient(301deg, #a1fbed, #d4fdf7); }
+  background-image: url(../../assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+  background-attachment: fixed; }
   #principal h2 {
     font-family: "lato", sans-serif;
-    font-style: italic bold; }
+    font-style: italic bold;
+    text-align: center;
+    font-size: 48px; }
+  #principal p {
+    width: 500px;
+    font-family: "raleway";
+    padding: 30px;
+    font-size: 30px;
+    background-color: rgba(119, 222, 205, 0.4);
+    padding: 0;
+    margin-left: 30%;
+    margin-top: 5%; }
+  #principal ul {
+    text-align: left;
+    font-size: 25px;
+    padding-top: 2%;
+    font-family: "raleway";
+    font-weight: bold;
+    color: white; }
+
+/*************************************seccion profesores***************************/
+#profesores h2 {
+  font-family: "lato", sans-serif;
+  font-style: italic bold;
+  text-align: center;
+  font-size: 48px;
+  margin-top: 2%; }
+#profesores img {
+  width: 166px; }
+#profesores p {
+  width: 400px;
+  display: inline-block;
+  font-family: "raleway";
+  font-size: 30px; }
+
+#profesores .container {
+  display: inline-flex;
+  margin-left: 18%;
+  margin-top: 5%;
+  text-align: center;
+  padding-bottom: 8%; }
 
 /*# sourceMappingURL=styles.css.map */

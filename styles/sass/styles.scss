@@ -1,16 +1,7 @@
 @import '_variables.scss';
 
-body{
-    max-width: 1100px;
-}
-
-#header nav, #principal article,#profesores article, #tps article, #cursos article, #certificado article, #trabajos article{
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 * {
-    width: 100%;
     margin: 0;
 }
 /****************navbar************************/
@@ -29,7 +20,8 @@ nav {
     flex-direction: row;
     height: 30px;
     padding-top: 10px;
-    margin-left: 75px;
+    margin-left: 2%;
+    justify-content: flex-start;
 
 }
 
@@ -42,6 +34,7 @@ nav {
     
     li {
         list-style: $nostyle;
+        width: 200px;
         
         a{
             text-decoration: $nostyle;
@@ -51,7 +44,7 @@ nav {
     }
     
     .wks, .cursos, .carreras {
-        visibility: hidden;
+        visibility: collapse;
     }
 }
 
@@ -59,14 +52,77 @@ nav {
 /***********************seccion principal**********************/
 
 #principal {
-    background: -webkit-linear-gradient(211deg, rgb(161, 251, 237), rgb(212, 253, 247));
-    background: -o-linear-gradient(211deg, rgb(161, 251, 237), rgb(212, 253, 247));
-    background: linear-gradient(301deg, rgb(161, 251, 237), rgb(212, 253, 247));
+    background-image: url(../../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
     
     h2 { 
         font-family: $fontfamily-titulo, sans-serif;
         font-style: italic bold;
+        text-align: center;
+        font-size: $fontsize-titulo;
+        
     } 
     
+    p {
+        width: 500px;
+        font-family: $fontfamily-txt;
+        padding: $fontsize-p;
+        font-size: $fontsize-p;
+        background-color: rgba(119,222,205,0.4);
+        padding: 0;
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    
+    ul{
+        text-align: left;
+        font-size: $fontsize-p - 5px;
+        padding-top: 2%;
+        font-family: $fontfamily-txt;
+        font-weight: bold;
+        color: $bkc;
+    }
 
 }
+
+
+/*************************************seccion profesores***************************/
+
+#profesores {
+    
+     h2 { 
+        font-family: $fontfamily-titulo, sans-serif;
+        font-style: italic bold;
+        text-align: center;
+        font-size: $fontsize-titulo;
+        margin-top: 2%;
+        
+    } 
+    
+    img{
+        width: 166px;
+    }
+    
+    p{
+        width: 400px; 
+        display: inline-block;
+        font-family: $fontfamily-txt;
+        font-size: $fontsize-p;
+    }
+    
+    
+}
+
+#profesores .container{
+    display: inline-flex;
+    margin-left: 18%;
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 8%;
+    }
