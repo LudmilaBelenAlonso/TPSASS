@@ -126,3 +126,128 @@ nav {
     text-align: center;
     padding-bottom: 8%;
     }
+
+/******seccion tps************************/
+
+#tps { 
+    h2 {
+      font-family:  $fontfamily-titulo,sans-serif;
+      font-style:  bold;
+      text-align: center;
+      font-size: $fontsize-titulo;
+      padding-top: 3%;
+    }
+    
+    div {
+        display: inline-flex;
+        margin-left: 18%;
+        margin-top: 5%;
+        text-align: center;
+        font-family: $fontfamily-titulo, sans-serif;
+  }
+
+    p {
+        width: 550px;
+        display: inline-block;
+        font-family: $fontfamily-txt,sans-serif;
+        font-size: $fontsize-p;
+        text-align: initial;
+        margin-left: 5%;
+        margin-top: 5%;
+}
+    .pc {
+        display: inline-flex;
+        margin-left: 35%;
+        }
+}
+
+/*************************seccion cursos**********************/
+
+#cursos {
+    h2 {
+        font-family:  $fontfamily-titulo,sans-serif;
+        font-style:  bold;
+        text-align: center;
+        font-size: $fontsize-titulo;
+        padding-top: 3%;
+        margin-bottom: 3%;
+
+    }
+    
+    ul{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 784px;
+        margin-left: 15%;
+    }
+    
+    li{
+        list-style: $nostyle;
+    }
+
+    img {
+        width: 100px;
+    }
+    
+    div {
+        width: 160px;
+        text-align: center;
+        h3{
+            color:$bkc;
+        }
+    }
+    
+    .dw{
+        background-image: linear-gradient(-20deg, rgb(233, 30, 99) 0%, rgba(233, 30, 99, 0.7) 100%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 1%;
+    }
+    
+    .pw{
+        background-image: linear-gradient(-20deg, rgb(0, 188, 212) 0%, rgba(0, 188, 212, 0.7) 100%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 1%;
+    }
+    
+    .dfe{
+        background-image: linear-gradient(-20deg, rgb(3, 169, 244) 0%, rgba(3, 169, 244, 0.7) 100%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 1%;
+    }
+    
+    .dfs{
+        background-image: linear-gradient(-20deg, rgb(255, 193, 7) 0%, rgba(255, 193, 7, 0.7) 100%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 1%;
+    }
+    .dm{
+        background-image: linear-gradient(-20deg, rgb(156, 39, 176) 0%, rgba(156, 39, 176, 0.7) 100%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 1%;
+    }
+    .w{
+        background-image: linear-gradient(-20deg, rgb(63, 81, 181) 0%, rgba(63, 81, 181, 0.7) 100%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 1%;
+    }
+    .dg{
+        background-image: linear-gradient(-20deg, rgb(244, 67, 54) 0%, rgba(244, 67, 54, 0.7) 100%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 1%;
+    }
+    .dux{
+        background-image: linear-gradient(-20deg, rgb(229, 57, 53) 0%, rgba(229, 57, 53, 0.7) 100%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 1%;
+    }
+    
+}
